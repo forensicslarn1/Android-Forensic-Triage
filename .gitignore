@@ -14,3 +14,7 @@ ENV/
 .vscode/
 .idea/
 *.swp
+
+# PyInstaller build artifacts
+build/
+

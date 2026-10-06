@@ -1,7 +1,24 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# PyInstaller & Compiler build artifacts
+build/
+dist_obf/
+*.spec
+*.pyarmor
+.pyarmor/
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.db-journal
+*.db-wal
+*.db-shm
 
 # Environments
 .env
@@ -10,11 +27,6 @@ env/
 venv/
 ENV/
 
-# IDEs
+# IDE configurations
 .vscode/
 .idea/
-*.swp
-
-# PyInstaller build artifacts
-build/
-

@@ -1,0 +1,44 @@
+PROPRIETARY AND CONFIDENTIAL SOFTWARE LICENSE
+================================================================================
+Copyright (c) 2026 forensicslarn1. All rights reserved.
+================================================================================
+
+This software, including its source code, documentation, graphics, algorithms,
+and compiled binary distributions ("Software"), is the proprietary intellectual
+property of forensicslarn1 ("Owner").
+
+NOTICE:
+This Software is protected by copyright laws and international intellectual
+property treaties. Unauthorized copying, reverse engineering, decompilation,
+disassembly, modification, distribution, sublicensing, or publication of any part
+of this Software, in source code or binary form, is strictly prohibited without
+prior written authorization from forensicslarn1.
+
+1. GRANT OF LICENSE:
+   Subject to the terms of this Agreement, you are granted a non-exclusive,
+   non-transferable, revocable license to use this Software solely for authorized
+   digital forensics triage and testing purposes.
+
+2. RESTRICTIONS:
+   You may NOT:
+   a. Decompile, disassemble, reverse engineer, or attempt to reconstruct,
+      identify, or discover any source code, underlying ideas, techniques, or
+      algorithms of the Software.
+   b. Modify, translate, adapt, or create derivative works based upon the Software.
+   c. Distribute, lease, sell, rent, sublicense, or commercially exploit the
+      Software without express written permission from the Owner.
+   d. Remove, alter, or obscure any proprietary notices, labels, or copyright
+      marks on or within the Software.
+
+3. DISCLAIMER OF WARRANTIES:
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+   THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+   AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+Owner / Contact: forensicslarn1 (diforen7@gmail.com)
+Repository: https://github.com/forensicslarn1/Android-Forensic-Triage
+================================================================================

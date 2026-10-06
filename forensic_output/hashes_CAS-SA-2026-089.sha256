@@ -1,0 +1,9 @@
+# 4nsicsLarn Cryptographic Hash Manifest
+# Generated: 2026-10-06T01:45:45.032708+00:00 UTC
+# Case ID: CAS-SA-2026-089 | Evidence ID: EVD-AND-01
+# Examiner: Capt. Al-Harbi
+# ======================================================================
+
+eab97db5834e1d742d67ad583dd82af7e53b86c2c20fba22cd60bb90c594d5f4  calllog.db
+3844226c45de1e84feeb22813d0ca82d2884f915ece55432214c7048f44a4476  History
+17b563d41405700531bae77d29d41faecdd0060f0fbe5d6e1e94ca8129e89f43  mmssms.db

@@ -1,0 +1,9 @@
+# 4nsicsLarn Cryptographic Hash Manifest
+# Generated: 2026-10-06T02:29:20.548235+00:00 UTC
+# Case ID: CAS-DEMO-2026-7788 | Evidence ID: EVD-SM-092
+# Examiner: Capt. Fahad Al-Otaibi
+# ======================================================================
+
+acd3d3863ded367be4d5868400d40d15a5bb03d8bb478840862786f7e1ed62b6  calllog.db
+cda6d80b48ac1a151ea2a04c596a31b6ffc5af94652b967b298c9e14bb40cd10  History
+7e214511c9b9b7f9492dcc4e6067ababb1ab997af2566c43e2cc6fd8bce07503  mmssms.db

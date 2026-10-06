@@ -283,3 +283,39 @@ def parse_chrome_history(db_path: str) -> List[Dict[str, Any]]:
         conn.close()
 
     return results
+
+def detect_database_type(db_path: str) -> str:
+    """
+    Inspects an SQLite file to determine whether it contains calls, sms, or web history.
+    """
+    import os
+    if not os.path.isfile(db_path):
+        return "unknown"
+
+    try:
+        conn = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        tables = [row[0] for row in cursor.fetchall()]
+        conn.close()
+
+        if "calls" in tables:
+            return "calls"
+        elif "sms" in tables:
+            return "sms"
+        elif "urls" in tables and "visits" in tables:
+            return "chrome"
+    except Exception:
+        pass
+
+    # Heuristic fallback based on filename
+    base_lower = os.path.basename(db_path).lower()
+    if "call" in base_lower or "contacts2" in base_lower:
+        return "calls"
+    elif "sms" in base_lower or "mms" in base_lower:
+        return "sms"
+    elif "history" in base_lower or "chrome" in base_lower:
+        return "chrome"
+
+    return "unknown"
+
